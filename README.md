@@ -1,8 +1,8 @@
 # Anytype
-Official Anytype client for MacOS, Linux, and Windows.
+适用于MacOS、Linux和Windows的官方Anytype客户端。
 
-## Building the source
-### Installation
+## 使用源码构建程序
+### 安装
 
 ```shell
 git clone git@github.com:anyproto/anytype-ts.git
@@ -21,7 +21,7 @@ Fetch the latest binary from the [github releases](https://github.com/anytypeio/
 	
 Or compile from the source code. Follow instructions at [`anytype-heart`](https://github.com/anyproto/anytype-heart#how-to-build).
 
-### Building
+### 编译
 
 Build [`anytype-heart`](https://github.com/anyproto/anytype-heart) first.
 
