@@ -23,18 +23,18 @@ Or compile from the source code. Follow instructions at [`anytype-heart`](https:
 
 ### 编译
 
-Build [`anytype-heart`](https://github.com/anyproto/anytype-heart) first.
+首先需要编译 [`anytype-heart`](https://github.com/anyproto/anytype-heart).
 
 ```shell
 npm run dist:(mac|win|linux)
 ```
 
-Options:
-- `ELECTRON_SKIP_NOTARIZE=1` — skip MacOS notarization process
+选项:
+- `ELECTRON_SKIP_NOTARIZE=1` — 跳过MacOS公证流程
 
-## Running
+## 运行
 
-Before running Anytype locally, you need to build [`anytype-heart`](https://github.com/anyproto/anytype-heart).
+在本地运行Anytype之前, 你需要编译 [`anytype-heart`](https://github.com/anyproto/anytype-heart).
 
 ### MacOS, Linux
 ```shell
@@ -46,8 +46,8 @@ SERVER_PORT=<PORT> ANYPROF=:<PROFILER_PORT> npm run start:dev
 SERVER_PORT=<PORT> ANYPROF=:<PROFILER_PORT> npm run start:dev-win
 ```
 
-Options:
-- `SERVER_PORT` — NPM variable, local server port
+选项:
+- `SERVER_PORT` — NPM变量，本地服务器端口
 - `ANYPROF` — Go variable, profiler port, access `http://localhost:<PORT>/debug/pprof/profile?seconds=30` for profiling
 
 ## Contribution
